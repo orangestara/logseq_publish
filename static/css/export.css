@@ -1,6 +1,4 @@
-.giscus, .giscus-frame {
-    width: 100%;
-    min-height: 150px;
-    flex: 1;
-    flex-basis: 100%;
+.giscus .giscus-frame {
+    margin: 0 max(10%, 250px) 0 max(10%, 250px);
+    width: calc(100% - 2 * max(10%, 250px));
 }
